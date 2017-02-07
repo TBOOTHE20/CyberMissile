@@ -16,6 +16,12 @@ public class CyberMissile {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        FlightSystem fs = new FlightSystem();
+        Warhead wh = new Warhead();
+      //fs.setTarget("The Mother Earth");
+	fs.setTarget("The Moon");
+      // wh.explode();
+ 	wh.selfDestruct();
     }
     
 }
